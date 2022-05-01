@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: brown;
+    color: white;
+    height: 30px;
+}
+
+nav {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+}
+
+nav ul {
+    position: absolute;
+    display: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav li:hover ul {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(119, 16, 102);
+}
+
+p {
+    color: black;
+}
